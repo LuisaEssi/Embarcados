@@ -1,18 +1,24 @@
 1. Por que o Linux recebeu esse nome?
+O nome vem do criador Linus e o sistema operacional anterior Unix.
 
 2. O que são daemons?
+São programas que executam no computador em forma de processo em segundo plano, não estando sobre o controle do usuário .
 
 3. O que é o shell?
+Shell é uma interface de usuário para acessar os serviços de um sistema operacional, pois tem a função de leitura dos comandos e tradução em linguagem de máquina. 
 
 4. Por que é importante evitar executar o terminal como super-usuário?
+O super-usuário tem total controle sobre o sistema, assim ao executar comandos de forma errada há a possibilidade de danificá-lo. 
 
 5. Qual botão do teclado completa o que o usuário escreve no terminal, de acordo com o contexto?
+Tecla Tab. 
 
 6. Quais botões do teclado apresentam instruções escritas anteriormente?
+As teclas 'up' e 'down'.
 
 7. Apresente os respectivos comandos no terminal para: 
 (a) Obter mais informações sobre um comando. 
- man (comando)
+man (comando)
  
 (b) Apresentar uma lista com os arquivos dentro de uma pasta.
 ls
@@ -73,4 +79,4 @@ sed -e
 diff
 
 (t) Escrever algo na tela.
-echo
+cat
