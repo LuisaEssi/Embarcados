@@ -1,11 +1,13 @@
 1. O que são sistemas embarcados?
 
+```
 São uma combinação de hardware e software, também com outras partes (elétricas e/ou mecânicas). Onde é projetado para realizar tarefas específicas de um outro sistema.
-
+```
 2. O que são sistemas microprocesssados?
 
+```
 São sistemas embutidos onde o computador é totalmente dedicado a realizar tarefas pré definidas e específicas.
-
+```
 3. Apresente aplicações de sistemas embarcados:
  
 (a) Para a indústria automotiva; 
