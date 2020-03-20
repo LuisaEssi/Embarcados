@@ -2,8 +2,10 @@ Para todas as questões, escreva os comandos correspondentes no terminal.
 
 1. Escreva o texto "Ola mundo cruel!" em um arquivo denominado "Ola_mundo.txt". Apresente o conteúdo deste arquivo no terminal. 
 ```bash
+
 echo "Olá mundo cruel!" > Ola_mundo.txt
 cat Ola_mundo.txt
+
 ```
 2. Apresente o nome de todos os arquivos e pastas na pasta 'root'.
 
