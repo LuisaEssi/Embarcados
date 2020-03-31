@@ -19,7 +19,7 @@ Shell é uma interface de usuário para acessar os serviços de um sistema opera
 4. Por que é importante evitar executar o terminal como super-usuário?
 
 ```
-O super-usuário tem total controle sobre o sistema, assim ao executar comandos de forma errada há a possibilidade de danificá-lo. 
+O super-usuário tem total controle sobre o sistema, assim ao executar comandos de forma errada, há a possibilidade de danificá-lo. 
 ```
 
 5. Qual botão do teclado completa o que o usuário escreve no terminal, de acordo com o contexto?

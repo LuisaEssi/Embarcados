@@ -2,12 +2,35 @@ Para todas as questões, compile-as com o gcc e execute-as via terminal.
 
 1. Crie um "Olá mundo!" em C.
 
+```c
+#include <stdio.h>
+
+int main(){
+
+	printf("Olá mundo!");
+return 0;
+}
+```
 2. Crie um código em C que pergunta ao usuário o seu nome, e imprime no terminal "Ola " e o nome do usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_1':
 
 ```bash
 $ ./ola_usuario_1
 $ Digite o seu nome: Eu
 $ Ola Eu
+```
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	char a[100];
+	printf("Digite seu nome:\n");
+	scanf("%[^\n]s", a);
+	printf("Ola %s \n", a);
+
+return 0;
+}
 ```
 
 3. Apresente os comportamentos do código anterior nos seguintes casos:
@@ -17,16 +40,25 @@ $ Ola Eu
 $ ./ola_usuario_1
 $ Digite o seu nome: Eu Mesmo
 ```
+```
+Ola Eu Mesmo
+```
 
 (b) Se o usuário insere mais de um nome entre aspas duplas. Por exemplo:
 ```bash
 $ ./ola_usuario_1
 $ Digite o seu nome: "Eu Mesmo"
 ```
+```
+Ola "Eu Mesmo"
+```
 
 (c) Se é usado um pipe. Por exemplo:
 ```bash
 $ echo Eu | ./ola_usuario_1
+```
+```
+Ola Eu |
 ```
 
 (d) Se é usado um pipe com mais de um nome. Por exemplo:
@@ -34,15 +66,25 @@ $ echo Eu | ./ola_usuario_1
 $ echo Eu Mesmo | ./ola_usuario_1
 ```
 
+```
+Ola Eu Mesmo |
+```
+
 (e) Se é usado um pipe com mais de um nome entre aspas duplas. Por exemplo:
 ```bash
 $ echo "Eu Mesmo" | ./ola_usuario_1
+```
+```
+Ola "Eu Mesmo" |
 ```
 
 (f) Se é usado o redirecionamento de arquivo. Por exemplo:
 ```bash
 $ echo Ola mundo cruel! > ola.txt
 $ ./ola_usuario_1 < ola.txt
+```
+```
+Ola (null)
 ```
 
 4. Crie um código em C que recebe o nome do usuário como um argumento de entrada (usando as variáveis argc e *argv[]), e imprime no terminal "Ola " e o nome do usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_2':
@@ -51,7 +93,18 @@ $ ./ola_usuario_1 < ola.txt
 $ ./ola_usuario_2 Eu
 $ Ola Eu
 ```
+```c
+#include <stdio.h>
 
+int main(int argc, char **argv)
+{
+	int i;
+
+		printf("Ola %s %s \n", argv[1], argv[2]);
+			
+	return 0;
+}
+```
 5. Apresente os comportamentos do código anterior nos seguintes casos:
 
 (a) Se o usuário insere mais de um nome.

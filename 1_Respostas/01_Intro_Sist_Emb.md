@@ -29,7 +29,7 @@ Robôs de produção, acionamentos elétricos.
 4. Cite arquiteturas possíveis e as diferenças entre elas.
 
 ```
-Microcontroladores, Processadores de propósito Geral, DSPs, FPGAs, ASICs, SoCs, MPSoCs. Os microcontroladores  possuem alguns periféricos na sua contrução que auxiliam na execução de algum projeto, como conversores AD, Timers, PWM, memórias RAM e ROM, dentre outros. A FPGA trabalha com a ideia de circuito reconfigurável por meio de uma linguagem de descrição de hardware (VHDL, Verilog...), ou seja, é possível reconfigurar o circuito uma vez implementado/programado nesta arquitetura. As arquiteturas em CI possui um circuito dedicado à alguma função em específica que pode auxiliar ou até mesmo executar alguma aplicação. 
+Microcontroladores, Processadores de propósito Geral, DSPs, FPGAs, ASICs, SoCs e MPSoCs. Os microcontroladores  possuem alguns periféricos na sua contrução que auxiliam na execução de algum projeto, como conversores AD, Timers, PWM, memórias RAM e ROM, dentre outros. A FPGA trabalha com a ideia de circuito reconfigurável por meio de uma linguagem de descrição de hardware (VHDL, Verilog...), ou seja, é possível reconfigurar o circuito uma vez implementado/programado nesta arquitetura. As arquiteturas em CI possui um circuito dedicado à alguma função em específica que pode auxiliar ou até mesmo executar alguma aplicação. 
 ``` 
 
 5. Por que usamos o Raspberry Pi na disciplina, ao invés de outro system-on-chip?
