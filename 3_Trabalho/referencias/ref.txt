@@ -1,0 +1,10 @@
+[1] Face Recognition with OpenCV. Disponível em:
+<\url{https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html}> Acesso em: 17 de set. 2020. 
+
+[2] de Oliveira, TM. Manifestações e aglomerações em períodos de pandemia por COVID-19 Manifestações em períodos de pandemia. InterAm J Med Health 2020;3:e202003025.(COVID-19). InterAm J Med Health 2020;3:e202003024.
+
+[3] COVID-19 - Authorized Entry Using Face Mask Detection, 2020. Disponível em: <https://www.hackster.io/rahulkhanna/covid-19-authorized-entry-using-face-mask-detection-37ad77>.   Acesso   em: 14   de set. 2020.
+
+[4] Smart Gateway Screening for Covid 19, 2020. Disponível em: <https://www.hackster.io/dadanugm07/smart-gateway-screening-for-covid-19-568d59>.   Acesso   em: 14   de set. 2020.
+
+[5] Como a automação industrial pode ajudar, 2020. Disponível em: <https://www.arvsystems.com.br/como-a-automacao-industrial-pode-ajudar>.   Acesso   em: 17   de set. 2020.
